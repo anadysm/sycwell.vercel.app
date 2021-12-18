@@ -10,13 +10,6 @@ body {
   font-style: normal;
   color: #fff;
   background: #1a1a1a;
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(
-    90deg,
-    rgb(131, 141, 248) 0%,
-    rgb(214, 179, 254) 100%
-  );
-  border-image-slice: 1;
   cursor: crosshair;
   -webkit-font-smoothing: antialiased;
   -webkit-transition: 0.5s ease;
@@ -26,13 +19,6 @@ body {
 .lightmode {
   color: #000;
   background: #e6e6e6;
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(
-    90deg,
-    rgb(214, 179, 254) 0%,
-    rgb(131, 141, 248) 100%
-  );
-  border-image-slice: 1;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -461,7 +447,7 @@ mark {
   background: #111;
 }
 #work .showcase .item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 #work .showcase .item .info {
   position: absolute;
@@ -579,7 +565,7 @@ mark {
   background-position: center;
   background-size: cover;
   filter: grayscale(1) invert(13%) sepia(10%) saturate(16%) hue-rotate(10deg)
-    brightness(95%) contrast(95%);
+    brightness(90%) contrast(95%);
 }
 .lightmode #work .showcase .item .playlist {
   filter: invert(1) grayscale(1) brightness(0.87);
