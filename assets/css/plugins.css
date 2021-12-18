@@ -7158,9 +7158,6 @@ button.close {
     background: #333;
     background: rgba(0, 0, 0, 0);
   }
-  .featherlight:last-of-type {
-    background: rgba(0, 0, 0, 0.8);
-  }
   .featherlight:before {
     content: '';
     display: inline-block;

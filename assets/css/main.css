@@ -564,18 +564,19 @@ mark {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: grayscale(1) invert(13%) sepia(10%) saturate(16%) hue-rotate(10deg)
-    brightness(90%) contrast(95%);
+  filter: grayscale(1) invert(15%) saturate(16%) hue-rotate(10deg)
+    brightness(90%);
 }
 .lightmode #work .showcase .item .playlist {
   filter: invert(1) grayscale(1) brightness(0.87);
 }
 .featherlight .featherlight-content {
-  max-height: 95%;
+  max-height: 100%;
   padding: 0;
   border-bottom: 0;
   backdrop-filter: blur(3px);
-  background: rgba(28, 28, 28, 0.7);
+  overflow-x: hidden;
+  background: #1a1a1a;
 }
 .featherlight .featherlight-content .featherlight-close-icon {
   font-size: 2.8rem;
