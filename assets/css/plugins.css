@@ -7158,6 +7158,12 @@ button.close {
     background: #333;
     background: rgba(0, 0, 0, 0);
   }
+  .featherlight:last-of-type {
+    background: #1a1a1a;
+  }
+  .lightmode .featherlight:last-of-type {
+    background: #dadada;
+  }
   .featherlight:before {
     content: '';
     display: inline-block;
