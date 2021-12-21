@@ -216,12 +216,6 @@ mark {
   width: 100%;
   display: block;
 }
-.box a:hover,
-.links a:hover,
-.links a:focus,
-.box a:focus {
-  text-decoration: line-through;
-}
 .glitch {
   font-weight: 500;
   font-size: 5rem;
@@ -307,7 +301,7 @@ mark {
 }
 .menu-list li a:hover {
   border-radius: 0.5rem;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: crosshair;
 }
 .icon {
