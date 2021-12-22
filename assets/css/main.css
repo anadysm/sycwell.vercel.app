@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  cursor: crosshair;
 }
 :root {
   color-scheme: dark;
@@ -10,7 +11,6 @@ body {
   font-style: normal;
   color: #fff;
   background: #1a1a1a;
-  cursor: crosshair;
   -webkit-font-smoothing: antialiased;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
@@ -162,6 +162,21 @@ button {
 }
 .lightmode .preloader {
   background: #fff;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+.lightmode::-webkit-scrollbar-track {
+  background: #e6e6e6;
+}
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+}
+.lightmode::-webkit-scrollbar-thumb {
+  background: #000;
 }
 mark {
   color: #000;
@@ -442,88 +457,6 @@ mark {
 }
 #work .showcase .item:last-child {
   margin-bottom: 1rem;
-}
-#work .showcase .item .info {
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  color: #fff;
-  background: #fff;
-  background: -webkit-linear-gradient(
-    left,
-    rgba(28, 28, 28, 1) 1%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    rgba(28, 28, 28, 1) 1%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(28, 28, 28, 1) 1%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f97db', endColorstr='#00000000',GradientType=1 );
-}
-#work .showcase .item:hover .info {
-  width: 100%;
-}
-#work .showcase .item .info .container-mid {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  padding: 0 6rem;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-#work .showcase .item .info .container-mid h5 {
-  margin: 0;
-  margin-bottom: 0.2em;
-  -webkit-transform: translateX(4vh);
-  -ms-transform: translateX(4vh);
-  transform: translateX(4vh);
-  opacity: 0;
-  color: #fff;
-}
-#work .showcase .item:hover .info .container-mid h5 {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-  opacity: 1;
-}
-#work .showcase .item .info .container-mid p {
-  position: relative;
-  margin-bottom: 0;
-  padding-left: 1.4rem;
-  -webkit-transform: translateX(4vh);
-  -ms-transform: translateX(4vh);
-  transform: translateX(4vh);
-  letter-spacing: 0.025em;
-  opacity: 0;
-}
-#work .showcase .item:hover .info .container-mid p {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-  opacity: 1;
-}
-#work .showcase .item .info .container-mid p:before {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 0.6em;
-  height: 1px;
-  content: '';
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  background: #fff;
 }
 #work .showcase .item .background-image {
   position: absolute;
