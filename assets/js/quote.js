@@ -9,7 +9,7 @@ quoteElem.innerHTML = getQuote(randomQ);
 
 function getQuote(n) {
   var quotes = [
-    'This is my dream? Im not even sleeping.',
+    "This is my dream? I'm not even sleeping.",
     'Everything takes longer than you think.',
     'Sooner your dream comes, sooner you get bored.',
     'Your life is fine, you are the disaster itself.',
