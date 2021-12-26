@@ -367,8 +367,7 @@ mark {
     left: 0;
     height: 100vmax;
     width: 100%;
-    background: rgba(26, 26, 26, 0.5);
-    backdrop-filter: blur(8px);
+    background: rgba(26, 26, 26);
     display: block;
     padding: 60px 0;
     padding-right: 30px;
@@ -376,7 +375,7 @@ mark {
     clip-path: circle(0px at calc(100%));
   }
   .lightmode .navbar .menu-list {
-    background: rgba(230, 230, 230, 0.5);
+    background: #e6e6e6;
   }
   .navbar .menu-list.active {
     clip-path: circle(100%);
@@ -501,7 +500,6 @@ mark {
   max-height: 100%;
   padding: 0;
   border-bottom: 0;
-  backdrop-filter: blur(3px);
   overflow-x: hidden;
   background: #1a1a1a;
 }

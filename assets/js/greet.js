@@ -24,6 +24,32 @@ function getGreet(n) {
   return greets[n];
 }
 
+var randomQ = randomInt(0, 10);
+function randomInt(lowest, size) {
+  return Math.floor(Math.random() * size) + lowest;
+}
+
+var traitElem = document.getElementById('trait');
+
+traitElem.innerHTML = getTrait(randomQ);
+
+function getTrait(n) {
+  var traits = [
+    ' bold ',
+    ' calm ',
+    ' strong ',
+    ' tough ',
+    ' cool ',
+    ' cute ',
+    ' charm ',
+    ' positive ',
+    ' focused ',
+    ' patient ',
+  ];
+
+  return traits[n];
+}
+
 var arrayOfWeekdays = [
   'sunday!',
   'monday!',
