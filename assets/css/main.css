@@ -325,6 +325,9 @@ mark {
   font-weight: bold;
   display: none;
 }
+.icon.menu-btn {
+  font-size: 38px;
+}
 .icon.cancel-btn {
   position: absolute;
   font-size: 25px;
