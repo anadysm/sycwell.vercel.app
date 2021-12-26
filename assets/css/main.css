@@ -552,3 +552,6 @@ mark {
 .icon a:focus {
   text-decoration: none;
 }
+#selector:after {
+  display: none;
+}
