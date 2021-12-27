@@ -326,11 +326,16 @@ mark {
   display: none;
 }
 .icon.menu-btn {
-  font-size: 25px;
+  font-size: 20px;
+  transform: rotate(-45deg);
+}
+.icon.menu-btn::before,
+.icon.cancel-btn:before {
+  content: '✕';
 }
 .icon.cancel-btn {
   position: absolute;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, sans-serif;
   right: 20px;
   top: 25px;
