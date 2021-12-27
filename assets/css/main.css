@@ -375,7 +375,7 @@ mark {
     padding: 60px 0;
     padding-right: 30px;
     text-align: right;
-    clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+    clip-path: circle(0px at calc(100% - 55px) calc(0% + 50px));
     transition: all 0.4s ease;
   }
   .lightmode .navbar .menu-list {
