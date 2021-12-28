@@ -561,3 +561,7 @@ mark {
 #selector:after {
   display: none;
 }
+#disablement {
+  pointer-events: none;
+  opacity: 0;
+}
