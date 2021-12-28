@@ -2300,10 +2300,6 @@ textarea.input-lg {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   cursor: crosshair;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2404,11 +2400,6 @@ fieldset[disabled] .btn-default:hover {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
-}
-.btn-primary .services-list li button:after {
-  -webkit-transform: rotate(0deg) translateX(-20%) translateY(-50%);
-  -ms-transform: rotate(0deg) translateX(-20%) translateY(-50%);
-  transform: rotate(0deg) translateX(-50%) translateY(-50%);
 }
 .btn-primary.focus,
 .btn-primary:focus {
