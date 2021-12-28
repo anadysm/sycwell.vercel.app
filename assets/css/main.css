@@ -326,7 +326,7 @@ mark {
   display: none;
 }
 .icon.menu-btn {
-  font-size: 25px;
+  font-size: 3.2rem;
   transform: rotate(-45deg);
 }
 .icon.menu-btn::before,
@@ -335,7 +335,7 @@ mark {
 }
 .icon.cancel-btn {
   position: absolute;
-  font-size: 25px;
+  font-size: 3.2rem;
   font-family: Arial, sans-serif;
   right: 20px;
   top: 25px;
