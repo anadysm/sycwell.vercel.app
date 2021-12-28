@@ -58,11 +58,11 @@ if (localStorage.getItem('theme') == 'light') setLightMode();
 function setLightMode() {
   let isLight = document.body.classList.toggle('lightmode');
   if (isLight) {
-    moon = '[<u>L:ght</u>]';
+    toggle = '[<u>L:ght</u>]';
     localStorage.setItem('theme', 'light');
   } else {
-    moon = '[<del>L:ght</del>]';
+    toggle = '[<del>L:ght</del>]';
     localStorage.removeItem('theme');
   }
-  document.getElementById('lightBtn').innerHTML = moon;
+  document.getElementById('lightBtn').innerHTML = toggle;
 }
