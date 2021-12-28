@@ -432,16 +432,11 @@ mark {
   position: absolute;
   top: 50%;
   right: 18px;
-  content: '✕';
-  -webkit-transform: rotate(-45deg) translateX(90%) translateY(-50%);
-  -ms-transform: rotate(-45deg) translateX(90%) translateY(-50%);
-  transform: rotate(-45deg) translateX(90%) translateY(-50%);
+  content: '+';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   color: #fff;
-}
-#service .services-list li button:focus:after {
-  -webkit-transform: rotate(0deg) translateX(-80%) translateY(-50%);
-  -ms-transform: rotate(0deg) translateX(-80%) translateY(-50%);
-  transform: rotate(0deg) translateX(-80%) translateY(-50%);
 }
 #service .services-list li .well {
   min-height: 20px;
