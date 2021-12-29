@@ -265,6 +265,7 @@ mark {
   font-size: 3.5rem;
   border: none;
   text-align: center;
+  user-select: none;
 }
 .content {
   margin: auto;
