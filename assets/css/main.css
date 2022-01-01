@@ -34,33 +34,16 @@ body {
   color: #000;
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal;
+h2 {
+  font-weight: 600;
   letter-spacing: 0.02em;
   color: #fff;
 }
 h1 {
-  font-size: 7.2rem;
+  font-size: 3.4rem;
 }
 h2 {
-  font-size: 3.9rem;
-}
-h3 {
   font-size: 3.4rem;
-  font-weight: 600;
-}
-h4 {
-  font-size: 2.9rem;
-}
-h5 {
-  font-size: 2.3rem;
-}
-h6 {
-  font-size: 1.9rem;
 }
 p {
   font-size: 1.8rem;
@@ -76,7 +59,8 @@ a:focus {
 .lightmode a,
 .lightmode a:hover,
 .lightmode a:focus,
-.lightmode h3 {
+.lightmode h1,
+.lightmode h2 {
   color: #000;
 }
 button {
@@ -204,7 +188,7 @@ mark {
 .content-area .content-area-inner section:last-child {
   margin-bottom: 10vh;
 }
-.content-area .content-area-inner section h3.headline {
+.content-area .content-area-inner section h2.headline {
   margin-bottom: 1.4em;
   font-weight: 500;
 }
@@ -532,7 +516,7 @@ mark {
 .featherlight .featherlight-content .work-lightbox img {
   margin: 0 auto 6vh auto;
 }
-.featherlight .featherlight-content .work-lightbox h3 {
+.featherlight .featherlight-content .work-lightbox h2 {
   margin-bottom: 0.2em;
 }
 .featherlight .featherlight-content .work-lightbox p.subline {
