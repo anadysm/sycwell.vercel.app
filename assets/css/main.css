@@ -30,7 +30,7 @@ body {
 .lightmode .btn-primary:hover,
 .lightmode .btn-primary:focus,
 .lightmode .btn-primary:active,
-.lightmode #service .services-list li button:after {
+.lightmode #service .services-list li button::after {
   color: #000;
 }
 h1,
@@ -250,6 +250,9 @@ mark {
   border: none;
   text-align: center;
 }
+.tribel::before {
+  content: '⏃';
+}
 .content {
   margin: auto;
   padding: 0px 0px;
@@ -314,7 +317,7 @@ mark {
   transform: rotate(-45deg);
 }
 .icon.menu-btn::before,
-.icon.cancel-btn:before {
+.icon.cancel-btn::before {
   content: '✕';
 }
 .icon.cancel-btn {
@@ -411,7 +414,7 @@ mark {
   border-radius: 0px;
   background: #252525;
 }
-#service .services-list li button:after {
+#service .services-list li button::after {
   font-size: 2rem;
   position: absolute;
   top: 50%;
@@ -536,12 +539,7 @@ mark {
   padding-top: 40px;
   pointer-events: auto;
 }
-.footer a:hover,
-.icon a:hover,
-.icon a:focus {
-  text-decoration: none;
-}
-#selector:after {
+#selector::after {
   display: none;
 }
 #disablement {
