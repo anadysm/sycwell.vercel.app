@@ -56,11 +56,15 @@ a:focus {
   cursor: crosshair;
   text-decoration: none;
 }
+del {
+  color: #fff;
+}
 .lightmode a,
 .lightmode a:hover,
 .lightmode a:focus,
 .lightmode h1,
-.lightmode h2 {
+.lightmode h2,
+.lightmode del {
   color: #000;
 }
 button {
