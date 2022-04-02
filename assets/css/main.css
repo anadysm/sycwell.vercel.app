@@ -174,6 +174,13 @@ mark {
 .lightmode .preloader .spinner {
   background: #f06334;
 }
+.star{
+  color:#484848;
+  pointer-events: none;
+}
+.lightmode .star{
+  color: #919191;
+}
 .content-area {
   position: relative;
   left: 0;
