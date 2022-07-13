@@ -225,35 +225,10 @@ mark {
   -webkit-text-stroke-color: #000;
   text-shadow: 5px 5px #f06334;
 }
-.highlight,
-.highlight:hover,
-.highlight:focus {
-  color: #e3fc00;
-  text-decoration: none;
-}
-.lightmode .highlight,
-.lightmode .highlight:hover,
-.lightmode .highlight:focus {
-  color: #f06334;
-}
 .content {
   margin: auto;
   padding: 0px 0px;
   max-width: 700px;
-}
-::-moz-selection {
-  color: #000;
-  background: #e3fc00;
-}
-.lightmode ::-moz-selection {
-  background: #f06334;
-}
-::selection {
-  color: #000;
-  background: #e3fc00;
-}
-.lightmode ::selection {
-  background: #f06334;
 }
 .navbar {
   position: absolute;
