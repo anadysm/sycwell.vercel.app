@@ -219,35 +219,22 @@ mark {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #fff;
-  text-shadow: 5px 5px #8941ec;
+  text-shadow: 5px 5px #e3fc00;
 }
 .lightmode .glitch {
   -webkit-text-stroke-color: #000;
-  text-shadow: 5px 5px #bb86fc;
+  text-shadow: 5px 5px #f06334;
 }
 .highlight,
 .highlight:hover,
 .highlight:focus {
-  color: #bb86fc;
+  color: #e3fc00;
   text-decoration: none;
 }
 .lightmode .highlight,
 .lightmode .highlight:hover,
 .lightmode .highlight:focus {
-  color: #8941ec;
-}
-.tribel,
-.lightmode .tribel {
-  background: #bb86fc;
-}
-.trigo {
-  margin-right: 5px;
-  font-size: 3.5rem;
-  border: none;
-  text-align: center;
-}
-.tribel::before {
-  content: '⏃';
+  color: #f06334;
 }
 .content {
   margin: auto;
