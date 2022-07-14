@@ -56,7 +56,8 @@ a:focus {
   cursor: crosshair;
   text-decoration: none;
 }
-del {
+del,
+u {
   color: #fff;
 }
 .lightmode a,
@@ -64,7 +65,8 @@ del {
 .lightmode a:focus,
 .lightmode h1,
 .lightmode h2,
-.lightmode del {
+.lightmode del,
+.lightmode u {
   color: #000;
 }
 button {
