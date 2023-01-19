@@ -1,6 +1,6 @@
 new Typed('#typed', {
   strings: [
-    '^1000 web, ^200 UI ^300 designer',
+    '^1000 UI / ^200 UX ^300 designer',
     '^1000 web ^700 developer',
     '^1500 part ^500 time ^700 gamer',
     '^1000 full time ^800 thinker',
